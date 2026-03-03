@@ -148,50 +148,54 @@
     color: #DD0000;
 }
 
-/* Form Styling */
-.postForm {
-    margin: 0 auto 20px;
-    display: table;
-    background-color: #D6DAF0;
-    border: 1px solid #B7C5D9;
-    border-bottom-color: #D9BFB7;
-    border-right-color: #D9BFB7;
-    padding: 5px;
-}
-
-.formRow {
-    display: table-row;
-}
-
-.formLabel {
-    display: table-cell;
-    background-color: #98E;
-    border: 1px solid #000;
-    color: #000;
-    font-weight: bold;
-    font-size: 10px;
-    padding: 0 5px;
-}
-
-.formInput {
-    display: table-cell;
-    padding: 2px;
-}
-
-.formInput input[type="text"],
-.formInput textarea {
-    border: 1px solid #A9A9A9;
+.fakeImage {
     width: 250px;
-    font-family: inherit;
-    font-size: 13px;
+    height: 250px;
+    background: #333;
+    color: #0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    text-align: center;
+    white-space: pre-wrap;
 }
 
-.formInput textarea {
-    height: 110px;
-    width: 300px;
-}
+@media (max-width: 768px) {
+    .container {
+        padding: 4px;
+        overflow-x: hidden;
+    }
 
-.formInput button {
-    margin-left: 5px;
-    cursor: pointer;
+    .boardTitle {
+        font-size: 22px;
+    }
+
+    .opPost {
+        flex-direction: column;
+    }
+
+    .fileThumb {
+        float: none;
+        margin: 0 0 10px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .fakeImage {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        max-height: 250px;
+    }
+
+    .replyPost {
+        margin-left: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .message {
+        font-size: 14px;
+    }
 }
