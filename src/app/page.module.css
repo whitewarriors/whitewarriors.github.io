@@ -1,0 +1,197 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #EEF2FF;
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    z-index: 9999;
+    /* Cover the old theme's global background and particles */
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.boardBanner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boardTitle {
+    color: #AF0A0F;
+    font-family: Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.boardSubtitle {
+    color: #AF0A0F;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.hr {
+    border: none;
+    border-top: 1px solid #D9BFB7;
+    margin: 10px 0;
+}
+
+.navLinks {
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #34345C;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #DD0000;
+}
+
+/* Post Styling */
+.thread {
+    margin-bottom: 30px;
+}
+
+.opPost {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.replyPost {
+    display: inline-block;
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    border-right-color: #D9BFB7;
+    border-bottom-color: #D9BFB7;
+    padding: 8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    max-width: 800px;
+}
+
+.postInfo {
+    margin-bottom: 5px;
+}
+
+.subject {
+    color: #0F0C5D;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.nameBlock {
+    margin-right: 5px;
+}
+
+.name {
+    color: #117743;
+    font-weight: bold;
+}
+
+.tripcode {
+    color: #228854;
+    font-weight: normal;
+}
+
+.dateTime {
+    margin-right: 5px;
+}
+
+.postNum {
+    margin-right: 5px;
+}
+
+.file {
+    margin-bottom: 10px;
+}
+
+.fileText {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.fileThumb {
+    float: left;
+    margin: 2px 20px 10px 0;
+    cursor: pointer;
+    border: 1px solid #34345C;
+}
+
+.message {
+    line-height: 1.3em;
+    font-size: 13px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.greentext {
+    color: #789922;
+}
+
+.quote {
+    color: #D00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.quote:hover {
+    color: #DD0000;
+}
+
+/* Form Styling */
+.postForm {
+    margin: 0 auto 20px;
+    display: table;
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    border-bottom-color: #D9BFB7;
+    border-right-color: #D9BFB7;
+    padding: 5px;
+}
+
+.formRow {
+    display: table-row;
+}
+
+.formLabel {
+    display: table-cell;
+    background-color: #98E;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0 5px;
+}
+
+.formInput {
+    display: table-cell;
+    padding: 2px;
+}
+
+.formInput input[type="text"],
+.formInput textarea {
+    border: 1px solid #A9A9A9;
+    width: 250px;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+.formInput textarea {
+    height: 110px;
+    width: 300px;
+}
+
+.formInput button {
+    margin-left: 5px;
+    cursor: pointer;
+}

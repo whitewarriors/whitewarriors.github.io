@@ -1,9 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'WhiteWarriors',
-  description:
-    'Personal portfolio of WhiteWarriors. Ex Cyber Infrastructure & Security Specialist, Backend Server Engineer, and Bohemia Interactive modder for DayZ and Arma.',
+  title: '/ww/',
+  description: 'WhiteWarrior - Cyber Infrastructure & Security Specialist, Backend Server Engineer, and Modder.',
   keywords: [
     'cybersecurity',
     'backend developer',
@@ -13,9 +12,8 @@ export const metadata = {
     'portfolio',
   ],
   openGraph: {
-    title: 'WhiteWarriors',
-    description:
-      'Ex Cyber Infrastructure & Security Specialist, Backend Engineer, and Bohemia Interactive Modder.',
+    title: '/ww/ - WhiteWarrior Portfolio',
+    description: 'Breaking, Building, and Modding',
     type: 'website',
   },
 };
