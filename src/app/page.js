@@ -19,7 +19,7 @@ export default function Theme4Chan() {
                 <div className={styles.opPost}>
                     <div className={styles.fileThumb}>
                         <img
-                            src="https://github.com/whitewarriors.png"
+                            src="https://github.com/133r7.png"
                             alt="WhiteWarrior"
                             className={styles.fakeImage}
                         />
